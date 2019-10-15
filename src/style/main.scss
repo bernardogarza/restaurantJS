@@ -1,4 +1,6 @@
+@import "_variables.scss";
+
 body{
-    background: black;
+    background: $hover-bg;
     color: white;
 }
