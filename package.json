@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/bernardogarza/restaurantJS/issues"
   },
-  "homepage": "https://github.com/bernardogarza/restaurantJS#readme"
+  "homepage": "https://github.com/bernardogarza/restaurantJS#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2"
+  }
 }
