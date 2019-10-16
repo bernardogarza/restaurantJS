@@ -8,12 +8,18 @@ function pageLoad (){
     const headerDiv = document.createElement('div');
     headerDiv.classList.add('header');
 
+    const phoneDiv = document.createElement('div');
+    phoneDiv.innerHTML = `<h4 class="headerInfo">PHONE:<br>83765495</h4>`;
+
     const image = document.createElement('div');
     image.innerHTML = `<img src="../static/logo-tacos.png" class="logo">`;
 
-    const scheduleDiv = document.createElement('div');
-    scheduleDiv.innerHTML = `<h4 id="schedule">Open everyday<br>8am - 3pm<br>6:30pm - 4am</h3>`;
 
+    const scheduleDiv = document.createElement('div');
+    scheduleDiv.innerHTML = `<h4 class="headerInfo">OPEN EVERYDAY<br>8AM - 3PM<br>6PM - 4AM</h3>`;
+
+
+    headerDiv.appendChild(phoneDiv);
     headerDiv.appendChild(image);
     headerDiv.appendChild(scheduleDiv);
 
