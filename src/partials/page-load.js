@@ -1,5 +1,3 @@
-import '../static/logo-tacos.png';
-
 function pageLoad (){
 
     const containerDiv = document.createElement('div');
@@ -16,7 +14,7 @@ function pageLoad (){
 
 
     const scheduleDiv = document.createElement('div');
-    scheduleDiv.innerHTML = `<h4 class="headerInfo">OPEN EVERYDAY<br>8AM - 3PM<br>6PM - 4AM</h3>`;
+    scheduleDiv.innerHTML = `<h4 class="headerInfo">OPEN EVERYDAY<br>8AM - 3PM<br>6:30PM - 4AM</h3>`;
 
 
     headerDiv.appendChild(phoneDiv);
