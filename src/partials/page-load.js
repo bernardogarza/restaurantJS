@@ -10,11 +10,11 @@ function pageLoad (){
     phoneDiv.innerHTML = `<h4 class="headerInfo">PHONE:<br>83765495</h4>`;
 
     const image = document.createElement('div');
-    image.innerHTML = `<img src="../static/logo-tacos.png" class="logo">`;
+    image.innerHTML = `<img src="./static/logo-tacos.png" class="logo">`;
 
 
     const scheduleDiv = document.createElement('div');
-    scheduleDiv.innerHTML = `<h4 class="headerInfo">OPEN EVERYDAY<br>8AM - 3PM<br>6:30PM - 4AM</h3>`;
+    scheduleDiv.innerHTML = `<h4 class="headerInfo">OPEN EVERYDAY<br>8AM - 3PM<br>6PM - 4AM</h3>`;
 
 
     headerDiv.appendChild(phoneDiv);
