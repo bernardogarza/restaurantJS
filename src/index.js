@@ -1,4 +1,6 @@
-import './style/main.scss';
-import './static/logo-tacos.png';
+import { pageLoad } from './partials/page-load';
 
-document.body.innerHTML = `<img src="static/logo-tacos.png" alt="Tacos El Güero">`
+import './style/main.scss';
+
+const content = document.getElementById('content');
+content.appendChild(pageLoad());

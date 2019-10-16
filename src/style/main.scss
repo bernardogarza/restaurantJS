@@ -1,6 +1,11 @@
 @import "_variables.scss";
 
-body{
-    background: $hover-bg;
-    color: white;
+body {
+    background: rgb(124, 1, 1);
+    text-align: center;
+}
+
+.logo {
+    height: 35%;
+    width: 35%
 }
