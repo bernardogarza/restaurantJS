@@ -63,8 +63,9 @@ li {
 .about {
     margin: 0 400px;
     color: $txt-color;
+    cursor: default;
     h1{
-        padding-bottom: 60px;
+        padding-bottom: 40px;
         text-decoration: underline;
     }
     p{
@@ -72,8 +73,38 @@ li {
         text-align: left;
     }
     img{
-        padding-top: 50px;
-        width: 50%;
+        padding-top: 30px;
         border-radius: 5px;
+    }
+}
+
+.menu {
+    color: $txt-color;
+    cursor: default;
+    .flex{
+        display: inline-grid;
+        grid-template-columns: 500px 500px 500px;
+    }
+    .dish{
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    h1 {
+        padding-bottom: 40px;
+        text-decoration: underline;
+    }
+    h2 {
+        padding-bottom: 5px;
+    }
+    p{
+        font-style: italic;
+        padding-bottom: 5px;
+    }
+    p.tortilla {
+        color: $tab-color;
+    }
+    .ingredients {
+        font-style: italic;
+        padding-top: 5px;
     }
 }

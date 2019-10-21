@@ -5,6 +5,14 @@ import { contactTab } from './partials/contact';
 import './style/main.scss';
 import './static/logo-tacos.png';
 import './static/about.png';
+import './static/cuates.png'
+import './static/pirata.png'
+import './static/special-tacos.png'
+import './static/regular-tacos.png'
+import './static/frijoles.png'
+import './static/hamburger.png'
+import './static/potato.png'
+import './static/cuates.png'
 
 const content = document.getElementById('content');
 content.appendChild(pageLoad());
