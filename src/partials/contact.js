@@ -1,6 +1,6 @@
-function contactTab() {
-  const contact = document.createElement('div');
-  contact.classList.add('contact');
+function contactTab () {
+  const contact = document.createElement('div')
+  contact.classList.add('contact')
 
   contact.innerHTML = `
   <h1>Contact Us</h1>
@@ -41,9 +41,9 @@ function contactTab() {
     <p>20-86-20-42</p>
     </div>
   </div>
-  `;
+  `
 
-  return contact;
+  return contact
 }
 
 export { contactTab }

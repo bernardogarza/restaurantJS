@@ -1,8 +1,8 @@
-function menuTab(){
-    const menu = document.createElement('div');
-    menu.classList.add('menu');
+function menuTab () {
+  const menu = document.createElement('div')
+  menu.classList.add('menu')
 
-    menu.innerHTML = `
+  menu.innerHTML = `
     <h1> Our menu </h1>
     <div class="grid">
       <div class="dish">
@@ -57,8 +57,8 @@ function menuTab(){
         <img src="./static/hamburger.png">
         <div class="ingredients">Meat, avocado, lettuce, tomato, pickles and onion</div>
     </div>
-  </div>`;
+  </div>`
 
-    return menu
+  return menu
 }
 export { menuTab }
