@@ -1,5 +1,5 @@
 import { pageLoad } from './partials/page-load'
-import { about } from './partials/about'
+import { aboutTab } from './partials/about'
 import './style/main.scss'
 import './static/logo-tacos.png';
 

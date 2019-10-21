@@ -23,27 +23,28 @@ function pageLoad (){
 
 	const nav = document.createElement('nav');
 	const ul = document.createElement('ul');
+  
+	const about = document.createElement('li');
+	about.innerText = 'About';
 
 	const menu = document.createElement('li');
 	menu.innerText = 'Menu';
-
-	const about = document.createElement('li');
-	about.innerText = 'About';
 	
 	const contact = document.createElement('li');
 	contact.innerText = 'Contact';
 
-	ul.appendChild(menu);
 	ul.appendChild(about);
+	ul.appendChild(menu);
 	ul.appendChild(contact);
 	
-	const main = document.createElement('div');
-	main.classList.add('main');
+	const mainDiv = document.createElement('div');
+	mainDiv.classList.add('main');
 
 	nav.appendChild(ul);
 
 	containerDiv.appendChild(headerDiv);
-	containerDiv.appendChild(nav);
+  containerDiv.appendChild(nav);
+  containerDiv.appendChild(mainDiv);
 	
 
 	return containerDiv;
