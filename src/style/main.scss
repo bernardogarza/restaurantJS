@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 50px 100px;
-    border-bottom: 5px double #7c543e63;
+    border-bottom: 5px double $border;
     div:nth-child(1){
         align-items: center;
     }
@@ -22,7 +22,6 @@
     }
     div:nth-child(3){
         align-items: center;
-        width: 20%
     }
 }
 .logo {
@@ -34,7 +33,7 @@
     margin-top: 0;
     font-family: 'Times New Roman', Times, serif;
     font-size: 19px;
-    color: #dbdbdb;
+    color: $txt-color;
     padding-bottom: 10px;
     cursor: default;
     animation: glow 1s infinite alternate;
@@ -54,7 +53,27 @@ ul {
 
 li {
     list-style: none;
-    color: #018652;
-    font-size: 16px;
+    color: $tab-color;
+    font-size: 22px;
     font-weight: lighter;
+    padding-bottom: 40px;
+    cursor: pointer;
+}
+
+.about {
+    margin: 0 400px;
+    color: $txt-color;
+    h1{
+        padding-bottom: 60px;
+        text-decoration: underline;
+    }
+    p{
+        font-size: 18px;
+        text-align: left;
+    }
+    img{
+        padding-top: 50px;
+        width: 50%;
+        border-radius: 5px;
+    }
 }

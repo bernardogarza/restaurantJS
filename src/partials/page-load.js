@@ -7,7 +7,7 @@ function pageLoad (){
 	headerDiv.classList.add('header');
 
 	const phoneDiv = document.createElement('div');
-	phoneDiv.innerHTML = `<h4 class="headerInfo">PHONE:<br>83765495</h4>`;
+	phoneDiv.innerHTML = `<h4 class="headerInfo">PHONE:<br>01-800-254654</h4>`;
 
 	const image = document.createElement('div');
 	image.innerHTML = `<img src="./static/logo-tacos.png" class="logo">`;

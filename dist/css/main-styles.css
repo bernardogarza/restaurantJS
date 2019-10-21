@@ -16,8 +16,7 @@
   .header div:nth-child(2) {
     align-items: center; }
   .header div:nth-child(3) {
-    align-items: center;
-    width: 20%; }
+    align-items: center; }
 
 .logo {
   height: 105;
@@ -45,6 +44,18 @@ ul {
 li {
   list-style: none;
   color: #018652;
-  font-size: 16px;
-  font-weight: lighter; }
+  font-size: 22px;
+  font-weight: lighter;
+  padding-bottom: 40px;
+  cursor: pointer; }
+
+.about {
+  margin: 0 400px;
+  color: #dbdbdb; }
+  .about h1 {
+    padding-bottom: 60px;
+    text-decoration: underline; }
+  .about p {
+    font-size: 18px;
+    text-align: left; }
 

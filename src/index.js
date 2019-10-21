@@ -4,6 +4,7 @@ import { menuTab } from './partials/menu';
 import { contactTab } from './partials/contact';
 import './style/main.scss';
 import './static/logo-tacos.png';
+import './static/about.png';
 
 const content = document.getElementById('content');
 content.appendChild(pageLoad());
