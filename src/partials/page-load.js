@@ -24,7 +24,8 @@ function pageLoad (){
 	const nav = document.createElement('nav');
 	const ul = document.createElement('ul');
   
-	const about = document.createElement('li');
+  const about = document.createElement('li');
+  about.classList.add('about-tab')
 	about.innerText = 'About';
 
 	const menu = document.createElement('li');

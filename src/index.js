@@ -23,7 +23,7 @@ content.appendChild(pageLoad());
 const mainDiv = document.querySelector('.main');
 mainDiv.appendChild(aboutTab());
 
-let navElements = document.querySelectorAll('nav ul li');
+let navElements = document.querySelectorAll('li');
 navElements = Array.from(navElements);
 
 const nav = document.querySelector('nav');
@@ -34,7 +34,6 @@ nav.addEventListener('click', function(e){
 	}
 
 	mainDiv.innerHTML = '';
-	console.log(e.target.innerText);
 	if (e.target.innerText == 'About'){
 		mainDiv.appendChild(aboutTab());
 	}
@@ -44,7 +43,7 @@ nav.addEventListener('click', function(e){
 
 	else if (e.target.innerText == 'Contact'){
 		mainDiv.appendChild(contactTab());
-	}
+  }
 
 	e.target.classList.add('active');
 })
