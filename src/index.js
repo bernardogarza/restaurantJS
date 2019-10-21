@@ -12,7 +12,10 @@ import './static/regular-tacos.png'
 import './static/frijoles.png'
 import './static/hamburger.png'
 import './static/potato.png'
-import './static/cuates.png'
+import './static/valle.png'
+import './static/cumbres.png'
+import './static/fundidora.png'
+import './static/anahuac.png'
 
 const content = document.getElementById('content');
 content.appendChild(pageLoad());

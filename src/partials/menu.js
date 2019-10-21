@@ -4,7 +4,7 @@ function menuTab(){
 
     menu.innerHTML = `
     <h1> Our menu </h1>
-    <div class="flex">
+    <div class="grid">
       <div class="dish">
         <h2>Cuates</h2>
         <p>Two big tacos</p>
@@ -51,7 +51,7 @@ function menuTab(){
         <div class="ingredients">Cheddar cheese, white cheese, butter, cream, arrachera and bacon</div>
     </div>
 
-      <div class="dish">
+      <div class="dish center-grid">
         <h2>Hamburger</h2>
         <p>The classic hamburger</p>
         <img src="./static/hamburger.png">

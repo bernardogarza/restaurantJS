@@ -81,11 +81,11 @@ li {
 .menu {
     color: $txt-color;
     cursor: default;
-    .flex{
+    .grid {
         display: inline-grid;
         grid-template-columns: 500px 500px 500px;
     }
-    .dish{
+    .dish {
         padding-bottom: 25px;
         text-align: center;
     }
@@ -96,7 +96,7 @@ li {
     h2 {
         padding-bottom: 5px;
     }
-    p{
+    p {
         font-style: italic;
         padding-bottom: 5px;
     }
@@ -106,5 +106,47 @@ li {
     .ingredients {
         font-style: italic;
         padding-top: 5px;
+    }
+    .center-grid{
+        grid-column-start: 2;
+    }
+}
+
+.contact {
+    color: $txt-color;
+    cursor: default;
+    h1 {
+        padding-bottom: 40px;
+        text-decoration: underline;
+    }
+    .branch {
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    h3 {
+        padding-bottom: 5px;
+    }
+    h4 {
+        font-style: italic;
+        font-weight: lighter;
+    }
+    p {
+        color: $tab-color;
+        font-style: italic;
+    }
+    .contact-grid{
+        display: inline-grid;
+        grid-template-columns: 500px 500px;
+    }
+}
+
+.active{
+    margin-top: 0;
+    cursor: pointer;
+    animation: glow-active 1s infinite alternate;
+}
+@keyframes glow-active {
+    to {
+        text-shadow: 0 0 18px #fdfdfd;
     }
 }
