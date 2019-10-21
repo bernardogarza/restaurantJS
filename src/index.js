@@ -1,6 +1,8 @@
-import { pageLoad } from './partials/page-load'
-import { aboutTab } from './partials/about'
-import './style/main.scss'
+import { pageLoad } from './partials/page-load';
+import { aboutTab } from './partials/about';
+import { menuTab } from './partials/menu';
+import { contactTab } from './partials/contact';
+import './style/main.scss';
 import './static/logo-tacos.png';
 
 const content = document.getElementById('content');
