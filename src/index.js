@@ -8,3 +8,6 @@ content.appendChild(pageLoad());
 
 const mainDiv = document.querySelector('.main');
 mainDiv.appendChild(aboutTab());
+
+let navElements = document.querySelectorAll('nav ul li');
+navElements = Array.from(navElements);
