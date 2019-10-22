@@ -20,5 +20,5 @@ Bernardo Garza - [bernardo.g.landa@gmail.com](bernardo.g.landa@gmail.com)
 5. Open [http://localhost:8080/](http://localhost:8080/) in your browser.
 
 
-*Live Demo:* https://rawcdn.githack.com/bernardogarza/restaurantJS/8213529211027b7b06313b4645643cc2160ed2b1/dist/index.html
+*Live Demo:* https://rawcdn.githack.com/bernardogarza/restaurantJS/fb905672000ff7f58ee7b5267a5d778b5a4a0047/dist/index.html
 
