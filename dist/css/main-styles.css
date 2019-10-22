@@ -1,2 +1,124 @@
-*{padding:0px;margin:0px;background:#221100;text-align:center}.header{height:100px;display:flex;justify-content:space-between;align-items:center;padding:50px 100px;border-bottom:5px double rgba(124,84,62,0.388235)}.header div:nth-child(1){align-items:center}.header div:nth-child(2){align-items:center}.header div:nth-child(3){align-items:center}.logo{height:105;width:15%}.headerInfo{margin-top:0;font-family:'Times New Roman', Times, serif;font-size:19px;color:#dbdbdb;padding-bottom:10px;cursor:default;animation:glow 1s infinite alternate}@keyframes glow{to{text-shadow:0 0 18px #00cc7e}}ul{padding-top:30px;display:flex;align-items:center;justify-content:space-around}li{list-style:none;color:#018652;font-size:22px;font-weight:lighter;padding-bottom:40px;cursor:pointer}li:hover{color:#00ff6a}.about{margin:0 400px;color:#dbdbdb;cursor:default}.about h1{padding-bottom:40px;text-decoration:underline}.about p{font-size:18px;text-align:left}.about img{padding-top:30px;border-radius:5px}.menu{color:#dbdbdb;cursor:default}.menu .grid{display:inline-grid;grid-template-columns:500px 500px 500px}.menu .dish{padding-bottom:25px;text-align:center}.menu h1{padding-bottom:40px;text-decoration:underline}.menu h2{padding-bottom:5px}.menu p{font-style:italic;padding-bottom:5px}.menu p.tortilla{color:#018652}.menu .ingredients{font-style:italic;padding-top:5px}.menu .center-grid{grid-column-start:2}.contact{color:#dbdbdb;cursor:default}.contact h1{padding-bottom:40px;text-decoration:underline}.contact .branch{padding-bottom:25px;text-align:center}.contact h3{padding-bottom:5px}.contact h4{font-style:italic;font-weight:lighter}.contact p{color:#018652;font-style:italic}.contact .contact-grid{display:inline-grid;grid-template-columns:500px 500px}.active{margin-top:0;color:#00ff6a;cursor:pointer;animation:glow-active 1s infinite alternate}@keyframes glow-active{to{text-shadow:0 0 18px #fdfdfd}}
+* {
+  padding: 0px;
+  margin: 0px;
+  background: #221100;
+  text-align: center; }
+
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+  border-bottom: 5px double #7c543e63; }
+  .header div:nth-child(1) {
+    align-items: center; }
+  .header div:nth-child(2) {
+    align-items: center; }
+  .header div:nth-child(3) {
+    align-items: center; }
+
+.logo {
+  height: 105;
+  width: 15%; }
+
+.headerInfo {
+  margin-top: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 19px;
+  color: #dbdbdb;
+  padding-bottom: 10px;
+  cursor: default;
+  animation: glow 1s infinite alternate; }
+
+@keyframes glow {
+  to {
+    text-shadow: 0 0 18px #00cc7e; } }
+
+ul {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+li {
+  list-style: none;
+  color: #018652;
+  font-size: 22px;
+  font-weight: lighter;
+  padding-bottom: 40px;
+  cursor: pointer; }
+
+li:hover {
+  color: #00ff6a; }
+
+.about {
+  margin: 0 400px;
+  color: #dbdbdb;
+  cursor: default; }
+  .about h1 {
+    padding-bottom: 40px;
+    text-decoration: underline; }
+  .about p {
+    font-size: 18px;
+    text-align: left; }
+  .about img {
+    padding-top: 30px;
+    border-radius: 5px; }
+
+.menu {
+  color: #dbdbdb;
+  cursor: default; }
+  .menu .grid {
+    display: inline-grid;
+    grid-template-columns: 500px 500px 500px; }
+  .menu .dish {
+    padding-bottom: 25px;
+    text-align: center; }
+  .menu h1 {
+    padding-bottom: 40px;
+    text-decoration: underline; }
+  .menu h2 {
+    padding-bottom: 5px; }
+  .menu p {
+    font-style: italic;
+    padding-bottom: 5px; }
+  .menu p.tortilla {
+    color: #018652; }
+  .menu .ingredients {
+    font-style: italic;
+    padding-top: 5px; }
+  .menu .center-grid {
+    grid-column-start: 2; }
+
+.contact {
+  color: #dbdbdb;
+  cursor: default; }
+  .contact h1 {
+    padding-bottom: 40px;
+    text-decoration: underline; }
+  .contact .branch {
+    padding-bottom: 25px;
+    text-align: center; }
+  .contact h3 {
+    padding-bottom: 5px; }
+  .contact h4 {
+    font-style: italic;
+    font-weight: lighter; }
+  .contact p {
+    color: #018652;
+    font-style: italic; }
+  .contact .contact-grid {
+    display: inline-grid;
+    grid-template-columns: 500px 500px; }
+
+.active {
+  margin-top: 0;
+  color: #00ff6a;
+  cursor: pointer;
+  animation: glow-active 1s infinite alternate; }
+
+@keyframes glow-active {
+  to {
+    text-shadow: 0 0 18px #fdfdfd; } }
 

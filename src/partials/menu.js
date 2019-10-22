@@ -1,6 +1,6 @@
-function menuTab () {
-  const menu = document.createElement('div')
-  menu.classList.add('menu')
+const menuTab = () => {
+  const menu = document.createElement('div');
+  menu.classList.add('menu');
 
   menu.innerHTML = `
     <h1> Our menu </h1>
@@ -57,8 +57,8 @@ function menuTab () {
         <img src="./static/hamburger.png">
         <div class="ingredients">Meat, avocado, lettuce, tomato, pickles and onion</div>
     </div>
-  </div>`
+  </div>`;
 
-  return menu
-}
-export { menuTab }
+  return menu;
+};
+export { menuTab };
