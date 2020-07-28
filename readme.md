@@ -1,11 +1,14 @@
 # Restaurant Page Project
 
-This a project for the Microverse main curriculum
+This project is built with Vanilla JS. It's a SPA for a restaurant
 
 ### Author:
 
 Bernardo Garza - [bernardo.g.landa@gmail.com](bernardo.g.landa@gmail.com)
 
+### Screenshot:
+
+![Restaurant](Screenshot.png?raw=true "Restaurant")
 
 ### Instructions:
 
