@@ -1,6 +1,6 @@
 # Restaurant Page Project
 
-This project is built with Vanilla JS. It's a SPA for a restaurant
+This project is built with Vanilla JS and WebPack. It's a SPA for a restaurant
 
 ### Author:
 
